@@ -1,0 +1,15 @@
+
+
+#current-image-container{
+    border: 1px solid;
+    height: 70%;
+    width: 98vw;
+    background-color: black;
+    color: white;
+}
+#search-history{
+    font-size: 15px;
+}
+.para{
+    color: red;
+}
