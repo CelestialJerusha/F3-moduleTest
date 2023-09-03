@@ -25,7 +25,6 @@ let button = document.getElementById("btn");
 button.addEventListener("click",()=>{
     let date = document.querySelector('input').value;
     getImageOfTheDay(date);
-    //getData(date);
 });
 async function getImageOfTheDay(date){
     

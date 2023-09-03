@@ -1,15 +1,24 @@
 
 
 #current-image-container{
-    border: 1px solid;
+    padding: 30px;
     height: 70%;
-    width: 98vw;
+    width: 94vw;
     background-color: black;
     color: white;
 }
 #search-history{
     font-size: 15px;
 }
+img{
+    width: 94vw;
+}
 .para{
     color: red;
+}
+h1{
+    color: white;
+}
+#search-form,#search-history{
+    width: 94vw;
 }
