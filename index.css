@@ -1,5 +1,4 @@
 
-
 #current-image-container{
     padding: 30px;
     height: 70%;
@@ -13,12 +12,28 @@
 img{
     width: 94vw;
 }
-.para{
-    color: red;
-}
+
 h1{
     color: white;
 }
 #search-form,#search-history{
     width: 94vw;
+}
+
+@media screen and (max-width: 700px) {
+#container{
+    font-size: 15px;
+}
+#search-history{
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 700px) {
+    #container{
+        font-size: 12px;
+    }
+    #search-history{
+        font-size: 11px;
+    }
 }
